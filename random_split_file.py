@@ -16,7 +16,7 @@ parser.add_argument(
 	default=0.5, help=''
 	)
 parser.add_argument(
-	'--skip_head' ,action='store_true',
+	'--skip-head' ,action='store_true',
 	default=False, help=''
 	)
 PARAM = parser.parse_args()
