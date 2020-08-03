@@ -21,6 +21,7 @@ parser.add_argument(
 	)
 PARAM = parser.parse_args()
 
+random.seed(33)
 with open(PARAM.input_file, 'r') as fin:
 	if PARAM.skip_head:
 		data = fin.readlines()[1:]
